@@ -33,7 +33,10 @@ const Hero = () => (
         }
         description=""
         button={
-          <Link href="/">
+          <Link
+            target="_blank"
+            href="https://chromewebstore.google.com/detail/ffolllebnagcedlagopfobpaohndjbmb"
+          >
             <Button xl>Install on Chrome</Button>
           </Link>
         }
