@@ -10,7 +10,10 @@ const Banner = () => (
       title="With just a few steps, you can take your blog content and transform it into a polished, portable EPUB ebook."
       subtitle="Start Today!"
       button={
-        <Link href="/">
+        <Link
+          target="_blank"
+          href="https://chromewebstore.google.com/detail/ffolllebnagcedlagopfobpaohndjbmb"
+        >
           <Button>Start</Button>
         </Link>
       }
