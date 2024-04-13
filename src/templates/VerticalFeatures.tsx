@@ -19,30 +19,44 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Step 1: Install Blog to EPUB"
-      description="Install the Blog to EPUB chrome extension."
-      image="/assets/images/step1.png"
+      description={
+        <>
+          <a
+            href="https://chromewebstore.google.com/detail/ffolllebnagcedlagopfobpaohndjbmb"
+            target="_blank"
+            className="underline"
+          >
+            Install
+          </a>{' '}
+          the Blog to EPUB chrome extension.
+        </>
+      }
+      image="/assets/images/step1.gif"
       imageAlt="Step 1: Install the Blog to EPUB Chrome Extension"
     />
     <VerticalFeatureRow
-      title="Step 2: Open a blog page"
+      title="Step 2: Select articles to convert"
       description={
         <>
-          <p>Open a blog page to select the articles you want to convert.</p>
+          <p>
+            Open your blog&apos;s homepage and select the articles you want to
+            convert.
+          </p>
           <p className="italic">
-            Tips: use single click to select or deselect a article and double
+            Tips: Use single click to select or deselect an article, and double
             clicks to select or deselect a list of articles.
           </p>
         </>
       }
-      image="/assets/images/select-articles.gif"
-      imageAlt="Step 2: Open a blog page"
+      image="/assets/images/step2.gif"
+      imageAlt="Step 2: Select articles to convert"
       reverse
     />
     <VerticalFeatureRow
-      title="Step 3: Select articles to convert"
-      description="Choose articles from the previously selected list to convert."
-      image="/assets/images/convert-options.gif"
-      imageAlt="Step 3: Select articles to convert"
+      title="Step 3: Confirm your selection"
+      description="Confirm the articles you have selected to convert to EPUB."
+      image="/assets/images/step3.gif"
+      imageAlt="Step 3: Confirm your selection"
     />
     <VerticalFeatureRow
       title="Step 4: Download the EPUB file"
